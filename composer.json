@@ -1,0 +1,21 @@
+{
+    "name": "jongotlin/affiliate-interfaces",
+    "description": "Interfaces for affiliate classes",
+    "keywords": ["affiliate"],
+    "license": "MIT",
+    "homepage": "https://github.com/jongotlin/AffiliateInterfaces",
+    "authors": [
+        {
+            "name": "Jon Gotlin",
+            "email": "jon@jon.se"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "AffiliateInterface\\": "src/AffiliateInterface"
+        }
+    }
+}
