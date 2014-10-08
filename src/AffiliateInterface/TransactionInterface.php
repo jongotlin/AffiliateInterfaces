@@ -5,7 +5,7 @@ namespace AffiliateInterface;
 interface TransactionInterface
 {
     /**
-     * @return int
+     * @return string
      */
     public function getOriginalId();
 
